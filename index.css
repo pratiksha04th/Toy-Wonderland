@@ -1,0 +1,106 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('images/logpg2.avif');
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.content{
+    align-self: center;
+    backdrop-filter: blur(3px);
+    width:500px;  
+    height: 500px;
+    margin: auto;
+    margin-top:7% ;
+    margin-bottom: 7%;
+    border-color:rgb(107, 16, 107);
+    border-radius:5% ;
+    border-width:thin ;
+    box-shadow: 0 0 4px rgb(107, 16, 107);
+    border-style:solid;
+    
+
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    text-align: center;
+    color:rgb(107, 16, 107);
+    font-size: 300%;
+}
+#username{
+    margin-top: 30px;
+    margin-left: 85px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0 0 4px rgb(107, 16, 107);
+    border-style: solid;
+    border-width: thin;
+    border-color:rgb(20, 20, 20) ;
+    padding: 7px;
+    width: 65%;
+    color: rgb(107, 16, 107);
+    background-image:url('images/username.png') ;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 25px;
+}
+.errormessage{
+    margin-left: 85px;
+    color: rgb(107, 16, 107);
+}
+#password{
+    margin-top: 20px;
+    margin-left: 85px;
+    border-radius:20px;
+    background: transparent;
+    box-shadow: 0 0 4px rgb(107, 16, 107);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(107, 16, 107);
+    padding: 7px;
+    width: 65%;
+    color: rgb(107, 16, 107);
+    background-image:url('images/password.png') ;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 25px;
+}
+.remember{
+    margin-top: 30px;
+    margin-left: 85px;
+    border-color: rgb(107, 16, 107);
+    border-style: solid;
+    
+}
+.re{
+    margin-left:5px;
+    color: rgb(107, 16, 107);
+}
+.forget{
+    margin-left: 110px;
+    color:rgb(107, 16, 107);
+}
+.button{
+    margin-top: 20px;
+    margin-left: 85px;
+    width:70%;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 0 0 4px rgb(107, 16, 107);
+    font-size: 20px;
+    padding: 1%;
+    border-style: solid;
+}
+.login{
+    text-decoration: none;
+    color: black;
+}
+.register{
+    margin-top: 30px;
+    margin-left:145px;
+    color: rgb(107, 16, 107);
+}

@@ -1,0 +1,236 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('images/purple.avif');
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.content1{
+    align-self: center;
+    background-color: white;
+    width:90%;  
+    height:auto;
+    margin:3% 7% 7% 5% ;
+    border-color: white;
+    border-radius:1% ;
+    border-width:thin ;
+    box-shadow: 0 0 10px black;
+    border-style: solid;
+    background-color:rgb(235, 225, 235) ;
+    
+
+}
+.nav{
+    background-image:url('home1.png') ;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position:6%;
+    margin-left: 20px;
+    display:inline-flex;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 10%;  
+}
+.home{
+    margin-left: 50%;
+    margin-top: 2%;
+    text-decoration:none;
+    color: rgb(182, 70, 182);
+}
+.news{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: rgb(182, 70, 182);
+    text-decoration: none;
+
+}
+.contact{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: rgb(182, 70, 182);
+    text-decoration: none;
+
+}
+.about{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: rgb(182, 70, 182);
+    text-decoration: none;
+
+}
+.search {
+    padding: 10px 35px 10px 15px; /* Space inside input */
+    margin: 1% 2%;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgb(182, 70, 182);
+    background-color: rgb(245, 235, 245);
+    border-radius: 25px;
+    font-size: 1em;
+    background-image: url('images/serchicon.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.search::placeholder {
+    color: rgb(150, 80, 150);
+}
+
+.search:focus {
+    box-shadow: 0 0 8px rgb(182, 70, 182);
+    background-color: white;
+}
+
+.hr1{
+    width: 90%;
+    border-color:plum ;
+    border-style: solid;
+}
+.profile{
+    margin-left: 2%;
+    margin-top: 1%;
+    width:3%;
+    height:60%;
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+    color: rgb(110, 40, 110);
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.toy-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.toy-section h2 {
+    color: rgb(110, 40, 110);
+    margin-bottom: 20px;
+}
+
+.toy-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.toy-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    width: 200px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.toy-card:hover {
+    transform: scale(1.05);
+}
+
+.toy-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.toy-card h3 {
+    color: rgb(182, 70, 182);
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.toy-card p {
+    font-size: 1.1em;
+    color: black;
+    margin: 5px 0;
+}
+
+.toy-card button {
+    background-color: rgb(182, 70, 182);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.toy-card button:hover {
+    background-color: rgb(140, 50, 140);
+}
+
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #6a0dad;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 180px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #fcdfff;
+}
+
+.footer-section a {
+    display: block;
+    color: #fce4ff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* ===== Enhanced Toy Card Transitions ===== */
+.toy-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    width: 200px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.toy-card:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 15px rgba(100, 0, 100, 0.5);
+}
