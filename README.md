@@ -1,8 +1,8 @@
-🎠 Toy Wonderland
+## 🎠 Toy Wonderland
 
 Toy Wonderland is a static, responsive, and colorful toy store website built using only HTML and CSS. It's a front-end project designed to showcase modern UI/UX practices using clean and semantic code.
 
-**🧸 Features**
+## 🧸 Features
 🎨 Fully responsive layout
 
 🛍️ Product showcase section
@@ -15,7 +15,7 @@ Toy Wonderland is a static, responsive, and colorful toy store website built usi
 
 📸 Image slider with forward/backward navigation
 
-**🛠️ Built With**
+## 🛠️ Built With
 HTML5 – for structuring the content
 
 CSS3 – for styling and layout
