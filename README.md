@@ -22,4 +22,4 @@ CSS3 – for styling and layout
 
 ## 🌐 Live Demo
 
-🚀 [View the Live Site](https://pratiksha04th.github.io/Toy-Wonderland/)
+🚀 [View the Live Site](https://toy-wonderland.vercel.app/)
